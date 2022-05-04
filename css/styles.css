@@ -245,6 +245,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--team-color-title);
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 
