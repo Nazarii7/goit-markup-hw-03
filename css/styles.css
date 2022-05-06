@@ -269,9 +269,11 @@ body {
 }
 
 .t-i {
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  text-align: center;
 }
 
 .team-title-name {
