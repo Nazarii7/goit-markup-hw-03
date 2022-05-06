@@ -78,6 +78,8 @@ body {
 
 .header-list {
   display: flex;
+  padding: 0px;
+  margin: 0px 0px;
 }
 
 .header-item:not(:last-child) {
@@ -155,6 +157,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--hero-color-btn);
   border-radius: 4px;
+  border-width: 0;
 }
 
 .hero-btn:hover,
@@ -172,17 +175,17 @@ body {
 
 .about-list {
   display: flex;
-  justify-content: center;
   padding: 0;
   margin: 0px 0px;
 }
 
-.about-list:not(:last-child) {
-  margin-right: 30px;
-}
-
 .about-item {
   width: 270px;
+  height: 101px;
+}
+
+.about-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .about-title {
@@ -191,7 +194,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--about-color-title);
-  margin-bottom: 10px;
+  margin: 0px 0px 10px 0px;
 }
 
 .about-bottom-text {
@@ -201,6 +204,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--about-color-text);
+  margin: 0;
 }
 
 /*******WORK******/
@@ -326,6 +330,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-color-link);
+  display: block;
   margin-bottom: 9px;
 }
 
@@ -341,7 +346,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-color-link);
-  display: block;
 }
 
 .address-tel:hover,
@@ -392,6 +396,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--hero-color-btn);
   border-radius: 4px;
+  border-width: 0;
 }
 
 .offer-btn:hover,
@@ -422,6 +427,8 @@ body {
 }
 
 .o-i {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
   padding: 20px 24px 20px 24px;
 }
 
